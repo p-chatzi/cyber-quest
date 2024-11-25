@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative; /* Position relative for absolute positioning of About section */
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-decoration: none; /* Remove underline from links */
+  transition: transform 0.3s ease;
+}
+
+.ctf {
+  background-image: url("../gfx/ctf1.jpg"); /* Replace with your CTF image */
+  background-size: cover; /* Cover entire area */
+  background-position: center; /* Center the image */
+  width: 50%; /* Each takes half of the screen */
+  height: 100%; /* Full height */
+}
+
+.games {
+  background-image: url("../gfx/games2.jpg"); /* Replace with your Games image */
+  background-size: cover; /* Cover entire area */
+  background-position: center; /* Center the image */
+  width: 50%; /* Each takes half of the screen */
+  height: 100%; /* Full height */
+}
+
+.about {
+  background-color: black;
+  background-size: cover; /* Cover entire area */
+  background-position: center; /* Center the image */
+  width: 20%; /* Smaller width for About */
+  height: 40%; /* Adjust height as needed */
+  position: absolute; /* Overlay in the middle */
+}
+
+.section:hover {
+  transform: scale(1.15); /* Slightly enlarge on hover */
+}
+
+.text {
+  position: relative; /* Position relative for text overlay */
+  font-size: 2em; /* Adjust font size as needed */
+}
+
+.ctf .text,
+.games .text,
+.about .text {
+  color: white; /* Text color */
+}
