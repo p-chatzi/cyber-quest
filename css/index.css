@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: center; 
   color: white;
   text-decoration: none; /* Remove underline from links */
   transition: transform 0.3s ease;
