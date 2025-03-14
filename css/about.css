@@ -49,3 +49,12 @@ footer {
       margin-bottom: 10px; /* Reduce space between sections on smaller screens */
   }
 }
+
+
+a{
+  color: #778899;
+}
+
+a:hover{
+  color: #B0C4DE;
+}
